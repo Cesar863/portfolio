@@ -28,6 +28,7 @@ function App() {
       <main>
         <Home currentPage={currentPage}></Home>
       </main>
+      <Footer />
     </div>
   );
 }
