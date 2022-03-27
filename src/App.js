@@ -18,16 +18,16 @@ function App() {
 
   return (
     <div>
-      <header>
+      <Header>
         <Nav
           pages={pages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
         ></Nav>
-      </header>
-      {/* <main>
+      </Header>
+      <main>
         <Home currentPage={currentPage}></Home>
-      </main> */}
+      </main>
     </div>
   );
 }

@@ -26,7 +26,7 @@ function Home({ currentPage }) {
         <section>
             <Content>{renderPage()}</Content>
         </section>
-    )
+    );
 }
 
 export default Home;
