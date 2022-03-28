@@ -73,10 +73,11 @@ function Portfolio() {
     ]);
 
     return(
-        <section>
-            <div>
-                <h1>{capitalizeFirstLetter(currentPage.name)}</h1>
-                <div>
+        <section className="p-0">
+            <div className="container-fluid p-0">
+                <h1 className="text-center margin-top">{capitalizeFirstLetter(currentPage.name)}</h1>
+                <hr className="my-4" />
+                <div className="row no-gutters popup-gallery">
                     {projects.map((project, idx) => (
                         <Project
                             project={project}

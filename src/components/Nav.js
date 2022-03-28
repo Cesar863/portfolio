@@ -13,14 +13,14 @@ function Nav(props) {
     }, [currentPage]);
 
     return(
-        <nav>
-            <div>
-                <h1>Cesar Martinez</h1>
+        <nav className="navbar navbar-expand-lg navbar-dark" id="mainNav">
+            <div className="container">
+                <h1 className="mint-cream">Cesar Martinez</h1>
                 <div>
-                    <ul>
+                    <ul className="navbar-nav ml-auto=">
                         {pages.map((Page) => (
                             <li
-                                className={` ${
+                                className={`nav-item nav-link ${
                                     currentPage.name === Page.name && 'active'
                                     }`}
                                 key={Page.name}

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { capitalizeFirstLetter } from '../utils/helpers';
 import { validateEmail } from '../utils/helpers';
+import '../assets/css/style.css';
+import 'react-bootstrap';
+import 'bootstrap';
 
 function Contact() {
     const [pages] = useState([
@@ -45,16 +48,17 @@ function Contact() {
         }
     };
     return(
-        <section>
-            <div>
-                <div>
-                    <div>
-                        <h1>{capitalizeFirstLetter(currentPage.name)}</h1>
-                        <form id="contact-form" onSubmit={handleSubmit}>
+        <section className="">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-10 mx-auto mint-cream mb-4">
+                        <h1 className="text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
+                        <hr className="mint-cream my-4"/>
+                        <form id="contact-form" onSubmit={handleSubmit} className="mb-5">
                             <div>
                                 <label htmlFor="name">Name:</label>
                                 <input
-                                    className=""
+                                    className="form-control"
                                     placeholder="Name"
                                     type="text"
                                     name="name"
@@ -65,7 +69,7 @@ function Contact() {
                             <div>
                             <label htmlFor="email">Email address:</label>
                                 <input
-                                    className=""
+                                    className="form-control"
                                     placeholder="Email"
                                     type="email"
                                     name="email"
@@ -74,8 +78,9 @@ function Contact() {
                                 />
                             </div>
                             <div>
+                            <label htmlFor="message">Message:</label>
                             <textarea
-                                    className=""
+                                    className="form-control"
                                     placeholder="Message"
                                     name="message"
                                     rows="5"
@@ -88,13 +93,13 @@ function Contact() {
                                     <p>{errorMessage}</p>
                                 </div>
                             )}
-                            <div>
-                            <button type="submit" className="btn btn-primary btn-xl js-scroll-trigger">Submit</button>
+                            <div className="text-center">
+                            <button type="submit" className="btn btn-info btn-xl m-3">Submit</button>
                             </div>
                         </form>
-                        <h4>
-                            Cesar Martinez <a href="mailto:Cesarm.863@gmail.com"> Cesarm.863@gmail.com</a>
-                        </h4>
+                        <h6>
+                            Want to email me? <br /><a className="text-decoration-none link-info" href="mailto:Cesarm.863@gmail.com"> Cesarm.863@gmail.com</a>
+                        </h6>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import Home from './components/Home';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import Footer from './components/Footer';
+import Foot from './components/Foot';
 
 function App() {
   const [pages] = useState([
@@ -17,7 +17,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div>
+    <div className="gunmetal">
       <Header>
         <Nav
           pages={pages}
@@ -28,7 +28,7 @@ function App() {
       <main>
         <Home currentPage={currentPage}></Home>
       </main>
-      <Footer />
+      <Foot />
     </div>
   );
 }

@@ -23,7 +23,7 @@ function Home({ currentPage }) {
     };
 
     return (
-        <section>
+        <section className="">
             <Content>{renderPage()}</Content>
         </section>
     );
