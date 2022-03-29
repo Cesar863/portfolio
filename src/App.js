@@ -4,7 +4,6 @@ import React, {useState} from 'react';
 import Home from './components/Home';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import Foot from './components/Foot';
 
 function App() {
   const [pages] = useState([

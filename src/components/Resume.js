@@ -124,9 +124,6 @@ function Resume() {
                             <li>REST</li>
                             <li>MERN Stack</li>
                         </ul>
-                        <p className="text-center">
-                            <a className=" white-link" href={Doc} download>Download my Resume</a>
-                        </p>
                         <div className="container">
                             <div className="d-flex flex-row justify-content-around text-center">
                             <div className="p-2">
