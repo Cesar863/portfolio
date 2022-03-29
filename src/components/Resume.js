@@ -15,6 +15,14 @@ function Resume() {
                     <div className=" col-lg-10 mx-auto text-white mb-4">
                         <h1 className="text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
                         <hr className="my-4" />
+                        <h3>Cesar Martinez</h3>
+                        <ul>
+                            <li>Marketing Graduate</li>
+                            <li>Sales Consultant</li>
+                            Sales and Marketing Leader
+                            Tableau Data Science Certified 
+                            AMA Member
+                        </ul>
                         <h3>Proficiencies</h3>
                         <ul>
                             <li>HTML</li>

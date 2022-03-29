@@ -5,7 +5,7 @@ function Project({ project }) {
     const {name, repo, link, description } = project;
 
     return(
-        <div className="col-lg-4 col-sm-6">
+        <div className="col-lg-4 col-sm-6 p-1 border border-dark">
             <div className="portfolio-box" key={name}>
                 <img
                     src={require(`../assets/img/${name}.png`)}

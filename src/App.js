@@ -28,7 +28,6 @@ function App() {
       <main>
         <Home currentPage={currentPage}></Home>
       </main>
-      <Foot />
     </div>
   );
 }

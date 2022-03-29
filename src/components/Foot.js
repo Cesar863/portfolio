@@ -14,8 +14,8 @@ function Foot() {
 
     return(
         <section className="mx-5">
-            <footer className="container">
-                <div className="row">
+            <footer className="">
+                <div className="row footer">
                     <div className="col-lg-8 mx-auto text-center">
                         {/* {icons.map(icon =>
                             (
