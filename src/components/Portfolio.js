@@ -67,7 +67,7 @@ function Portfolio() {
         {
             name: "eat-n-greet",
             description: "A MERN application created to connect people with similar food interests.",
-            link: "Link-coming-soon",
+            link: "https://eat-n-greet-meetup.herokuapp.com/",
             repo: "https://github.com/CTripleF/eat-n-greet"
         }
     ]);
