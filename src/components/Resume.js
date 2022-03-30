@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from "../utils/helpers";
-import Doc from '../assets/resume/Cesar_Martinez_Resume.pdf';
-import { FaGithub, FaEnvelope, FaLinkedin, FaArrowAltCircleDown } from 'react-icons/fa';
 
 function Resume() {
     const [pages] = useState([
@@ -17,8 +15,7 @@ function Resume() {
                         <h1 className="text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
                         <hr className="my-4" />
                         <h3 className="text-center">Cesar Martinez</h3>
-                        <p className="text-center">Marketing Graduate | Sales Consultant | Sales and Marketing Leader
-| Tableau Data Science Certified | AMA Member</p>
+                        <p className="text-center">Marketing Graduate | Sales Consultant | Sales and Marketing Leader | Tableau Data Science Certified | AMA Member</p>
                         <h4><u><u>Top Skills</u></u></h4>
                         <ul>
                             <li>Market Research </li>
@@ -124,38 +121,6 @@ function Resume() {
                             <li>REST</li>
                             <li>MERN Stack</li>
                         </ul>
-                        <div className="container">
-                            <div className="d-flex flex-row justify-content-around text-center">
-                            <div className="p-2">
-                                Email:
-                                <br/>
-                                <a href="mailto:cesarm.863@gmail.com" >
-                                    <FaEnvelope size="3em"/> 
-                                </a>
-                            </div>
-                            <div className="p-2">
-                                GitHub: 
-                                <br/> 
-                                <a href="https://www.github.com/cesar863">
-                                    <FaGithub size="3em"/>
-                                </a>
-                            </div>
-                            <div className="p-2">
-                                LinkedIn:
-                                <br/> 
-                                <a href="https://www.linkedin.com/in/cesar-martinez-b623a8166/">
-                                    <FaLinkedin size="3em"/>
-                                </a>
-                            </div>
-                            <div className="p-2">
-                                Resume:
-                                <br/>
-                                <a href={Doc} download>
-                                    <FaArrowAltCircleDown size="3em"/>
-                                </a>
-                            </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,6 @@ import { validateEmail } from '../utils/helpers';
 import '../assets/css/style.css';
 import 'react-bootstrap';
 import 'bootstrap';
-import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 function Contact() {
     const [pages] = useState([
@@ -98,31 +97,6 @@ function Contact() {
                             <button type="submit" className="btn btn-info btn-xl m-3">Submit</button>
                             </div>
                         </form>
-                        <div className="container">
-                            <div className="d-flex flex-row justify-content-around">
-                            <div className="p-2">
-                                Email:
-                                <br/>
-                                <a href="mailto:cesarm.863@gmail.com" >
-                                    <FaEnvelope size="3em"/> 
-                                </a>
-                            </div>
-                            <div className="p-2">
-                                GitHub: 
-                                <br/> 
-                                <a href="https://www.github.com/cesar863">
-                                    <FaGithub size="3em"/>
-                                </a>
-                            </div>
-                            <div className="p-2">
-                                LinkedIn 
-                                <br/> 
-                                <a href="https://www.linkedin.com/in/cesar-martinez-b623a8166/">
-                                    <FaLinkedin size="3em"/>
-                                </a>
-                            </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,6 @@ import { capitalizeFirstLetter } from '../utils/helpers';
 import 'react-bootstrap';
 import '../assets/css/style.css';
 import Me from '../assets/img/Me.png';
-import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 
 function About() {
@@ -13,7 +12,7 @@ function About() {
     const [currentPage] = useState(pages[0]);
 
     return(
-        <div className="bg-dark d-flex p-5">
+        <div className=" d-flex p-5">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 mx-auto border gunmetal mint-cream d-flex flex-wrap row container-fluid">
@@ -32,29 +31,6 @@ function About() {
                         <p className='text-left'>After I finish this boot camp I am looking for a change in careers. I would like to find work as a back end developer. I will continue to learn and work to become a successful an d marketable full stack developer.</p>
                         <h3 className="text-center"><u>Why?</u></h3>
                         <p className='text-left'>While I love education, It is time for a change in careers. I love technology and I have always had a curiosity for code and web development. I would love to one day be on a team of developers that create life changing technology for the betterment of humanity</p>
-                        </div>
-                        <div className="d-flex flex-row justify-content-around ">
-                        <div className="p-2">
-                                Email:
-                                <br/>
-                                <a href="mailto:cesarm.863@gmail.com" >
-                                    <FaEnvelope size="3em"/> 
-                                </a>
-                            </div>
-                            <div className="p-2">
-                                GitHub: 
-                                <br/> 
-                                <a href="https://www.github.com/cesar863">
-                                    <FaGithub size="3em"/>
-                                </a>
-                            </div>
-                            <div className="p-2">
-                                LinkedIn 
-                                <br/> 
-                                <a href="https://www.linkedin.com/in/cesar-martinez-b623a8166/">
-                                    <FaLinkedin size="3em"/>
-                                </a>
-                            </div>
                         </div>
                     </div>
                     </div>
