@@ -1,5 +1,6 @@
 import React from 'react';
 import { removeHyphensAndCapitalize } from '../utils/helpers';
+import { FaGithub } from 'react-icons/fa';
 
 function Project({ project }) {
     const {name, repo, link, description } = project;
@@ -15,7 +16,7 @@ function Project({ project }) {
                 <div className="portfolio-box-caption">
                     <div className="portfolio-box-caption-content">
                         <a className="project-category text-faded" href={repo} target="_blank">
-                        <i className="fab fa-github"></i>
+                        <FaGithub size="2.5em"/>
                         </a>
                         <br />
                         <a className="project-category text-faded" href={link} target="_blank">{removeHyphensAndCapitalize(name)}</a>{' '}
