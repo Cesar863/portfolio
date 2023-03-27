@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaEnvelope, FaLinkedin, FaArrowAltCircleDown } from 'react-icons/fa';
 import 'react-bootstrap';
 import '../assets/css/style.css';
-import Doc from '../assets/resume/Cesar_Martinez_Resume.pdf';
+import Doc from '../assets/resume/Cesar Martinez Resume 2022-2023.pdf';
 
 function Footer() {
     return(
