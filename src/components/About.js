@@ -18,7 +18,7 @@ function About() {
                     <div className="col-lg-10 mx-auto border gunmetal mint-cream d-flex flex-wrap row container-fluid">
                         <div>
                             <img
-                            src={Me} className="img-fluid mt-5" alt="A picture of my fiance and I in front of the tower at Bok Tower Gardens."/>
+                            src={Me} className="img-fluid mt-5" alt="My fiance and I in front of the tower at Bok Tower Gardens."/>
                         </div>
                         <div>
                         <div>
