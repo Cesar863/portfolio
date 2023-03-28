@@ -15,11 +15,11 @@ function Project({ project }) {
                 />
                 <div className="portfolio-box-caption">
                     <div className="portfolio-box-caption-content">
-                        <a className="project-category text-faded" href={repo} target="_blank">
+                        <a className="project-category text-faded" href={repo} target="_blank" rel="noopener noreferrer">
                         <FaGithub size="2.5em"/>
                         </a>
                         <br />
-                        <a className="project-category text-faded" href={link} target="_blank">{removeHyphensAndCapitalize(name)}</a>{' '}
+                        <a className="project-category text-faded" href={link} target="_blank" rel="noopener noreferrer">{removeHyphensAndCapitalize(name)}</a>{' '}
                         <p className="project-name">{description}</p>
                     </div>
                 </div>
