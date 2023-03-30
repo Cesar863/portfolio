@@ -18,12 +18,12 @@ function Resume() {
                         <p className="text-center">Marketing Graduate | Sales Consultant | Sales and Marketing Leader | Tableau Data Science Certified | AMA Member</p>
                         <h4><u><u>Top Skills</u></u></h4>
                         <ul>
-                            <li>Market Research </li>
-                            <li>Analysis</li>
-                            <li>Data Analytics </li>
-                            <li>Pivot Tables </li>
-                            <li>Financial Reporting </li>
-                            <li>Accounting</li>
+                            <li>TypeScript</li>
+                            <li>Node.js</li>
+                            <li>AWS CDK</li>
+                            <li>SQL</li>
+                            <li>Software Engineering</li>
+                            <li>Full-Stack Engineering</li>
                         </ul>
                         <h4><u>Languages</u></h4>
                         <p>Spanish (Full Professional)</p>
