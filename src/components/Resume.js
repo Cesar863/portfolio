@@ -33,7 +33,7 @@ function Resume() {
                             <li>UCF Web Development Boot Camp</li>
                         </ul>
                         <h4><u>Summary</u></h4>
-                        <p> I am a Software Engineer with a degree in Marketing from the University of South Florida. I have years of experience creating websites and learning languages in a short time frame to create responsive products, pages, apps and designs. I graduated from the University of Central Florida Coding bootcamp as a Full Stack Web and MERN developer. I am currently working on Bravado Health where we are developing the AYVA app. Proficient in React.js, MONGODB, mongoose, GraphQL, Express.Js, Jest, API's, Node.js, MySQL, HTML, CSS, JavaScript, MERN Stack, REST API's, PostgreSQL, TypeScript, MUI, Jest, Enzyme, TypeScript, AWS CDK, and Agile work method. </p>
+                        <p> A Software Engineer with 2+ years of experience in Full-Stack development. 1+ years of AWS development. I am a quick leaner and am excited to grow in the field. I am currently working on Bravado Health where we are developing the AYVA app. </p>
                         <h4><u>Experience</u></h4>
                         <div className="container">
                         <div className="d-flex flex-fow justify-content-around">
