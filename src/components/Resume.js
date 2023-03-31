@@ -30,65 +30,24 @@ function Resume() {
                         <p>Spanish (Full Professional)</p>
                         <h4><u>Certifications</u></h4>
                         <ul>
-                            <li><img src={certificate} alt="UCF Certificate of completion">UCF Web Development Boot Camp</img></li>
-                            <li>Microsoft Office Specialist: Microsoft Office 2016</li>
+                            <li>UCF Web Development Boot Camp</li>
                         </ul>
                         <h4><u>Summary</u></h4>
-                        <p> I am a marketing graduate and consultative sales professional
-                        credited with hands - on experience driving sales enhancement and
-                        achieving sustained revenue increases by using strong business
-                        acumen, leadership, and decision - making skills in strategic sales
-                        and marketing.I possess a strong ability to evaluate the market and
-                        competitive conditions, current and emerging trends, and industry specific solutions to ensure an optimal position in the marketplace.
-                        Continue to hone expertise in analyzing trends and forecasting sales
-                        to formulate long - term strategies, key objectives, and operations
-                        execution plans based on business best practices that helped in
-                        achieving maximum growth and profitability.
-                        My expertise lies in successfully developing and implementing
-                        effective sales strategies, directing large - scale marketing campaigns,
-                        and managing personal, trusting client relationships to maximize
-                        company profits.I have achieved distinction as a top sales performer
-                        and entrepreneur, consistently receiving recognition
-                        for recordsetting sales figures, territory expansion, outperformed quotas, and
-                        corporate goals achievement. </p>
-
-                        <h4><u>Specialties</u></h4>
-                        <p> Knowledge of traditional, contemporary, and emerging sales and
-                        marketing techniques such as social media strategies, promotions,
-                        and marketing campaigns that increase brand visibility and improve
-                        sales.
-                        Advanced problem - solving proficiency.Able to swiftly amend errors
-                        and discrepancies and respond to inquiries to ensure uninterrupted
-                        workflow and compliance with deadlines.
-                        Strong critical thinking and thorough research, data analysis,
-                        reconciliation, and numerical abilities.Keen accuracy
-                        for detail in
-                            evaluating financial data and interpreting complex information.
-                        Well - developed interpersonal and communication skills.
-                        Collaborative team player with an upbeat and positive attitude.
-                        Proficient in Tableau, MS Word, MS Excel, MS Outlook, MS
-                        PowerPoint, One Note, Adobe Creative Cloud(Photoshop, InDesign,
-                            and Dreamweaver), MS Windows, MS Office </p>
+                        <p> I am a Software Engineer with a degree in Marketing from the University of South Florida. I have years of experience creating websites and learning languages in a short time frame to create responsive products, pages, apps and designs. I graduated from the University of Central Florida Coding bootcamp as a Full Stack Web and MERN developer. I am currently working on Bravado Health where we are developing the AYVA app. Proficient in React.js, MONGODB, mongoose, GraphQL, Express.Js, Jest, API's, Node.js, MySQL, HTML, CSS, JavaScript, MERN Stack, REST API's, PostgreSQL, TypeScript, MUI, Jest, Enzyme, TypeScript, AWS CDK, and Agile work method. </p>
                         <h4><u>Experience</u></h4>
                         <div className="container">
                         <div className="d-flex flex-fow justify-content-around">
                             <div className="p-2">
+                            <div className="p-2">
+                                <h5>Bravado Health</h5>
+                                <br/>
+                                <p>Software Engineer</p>
+                                <p>February 2022 - Present</p>
+                            </div> 
                                 <h5>Polk County School Board</h5>
                                 <br/>
                                 <p>Math Teacher</p>
-                                <p>August 2020 - Present</p>
-                            </div> 
-                            <div className="p-2">
-                                <h5>Best Buy</h5>
-                                <br/>
-                                <p>Wireless Sales Consultant</p>
-                                <p>October 2014 - August 2020</p>
-                            </div> 
-                            <div className="p-2">
-                                <h5>AllSaints</h5>
-                                <br />
-                                <p>Stock Supervisor</p>
-                                <p>August 2013 - April 2014</p>
+                                <p>August 2020 - February 2022</p>
                             </div> 
                         </div>
                         </div>
@@ -112,7 +71,7 @@ function Resume() {
                             <li>JavaScript</li>
                             <li>jQuery</li>
                             <li>Git</li>
-                            <li>React</li>
+                            <li>React.js</li>
                             <li>Bootstrap</li>
                             <li>APIs</li>
                             <li>Node</li>
@@ -121,6 +80,42 @@ function Resume() {
                             <li>MongoDB, Mongoose</li>
                             <li>REST</li>
                             <li>MERN Stack</li>
+                            <li>NoSQL</li>
+                            <li>PostgreSQL</li>
+                            <li>TypeScript</li>
+                            <li>Agile Development</li>
+                            <li>GitHub</li>
+                            <li>AWS CDK</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Amazon S3</li>
+                            <li>REST API</li>
+                            <li>Microservices</li>
+                            <li>Material-UI</li>
+                            <li>Back-End Web Development</li>
+                            <li>Full-Stack Web Development</li>
+                            <li>Web Development</li>
+                            <li>Unit Testing</li>
+                            <li>JSON</li>
+                            <li>Git</li>
+                            <li>Jest</li>
+                            <li>AWS CloudFormation</li>
+                            <li>AWS Lambda</li>
+                            <li>Continuous Integration and Continuous Delivery (cd/ci)</li>
+                            <li>Front-End Development</li>
+                            <li>Version Control</li>
+                            <li>GitFlow</li>
+                            <li>Web Pack</li>
+                            <li>Api Development</li>
+                            <li>Redux.js</li>
+                            <li>Amazon Web Services (AWS)</li>
+                            <li>XHTML</li>
+                            <li>JSON Web Token (JWT)</li>
+                            <li>GraphQL</li>
+                            <li>Object-Relational Mapping (ORM)</li>
+                            <li>Object-Oriented Programming (OOP)</li>
+                            <li>Progressive Web Applications (PWA)</li>
+                            <li>Handlebars.js</li>
                         </ul>
                     </div>
                 </div>
