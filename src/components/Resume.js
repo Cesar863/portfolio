@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from "../utils/helpers";
+import certificate from '../assets/resume/Cesar Martinez Resume 2022-2023.pdf'
 
 function Resume() {
     const [pages] = useState([
@@ -15,21 +16,21 @@ function Resume() {
                         <h1 className="text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
                         <hr className="my-4" />
                         <h3 className="text-center">Cesar Martinez</h3>
-                        <p className="text-center">Marketing Graduate | Sales Consultant | Sales and Marketing Leader | Tableau Data Science Certified | AMA Member</p>
+                        <p className="text-center">Software Engineer | Full-Stack Web Developer</p>
                         <h4><u><u>Top Skills</u></u></h4>
                         <ul>
                             <li>TypeScript</li>
                             <li>Node.js</li>
                             <li>AWS CDK</li>
                             <li>SQL</li>
-                            <li>Software Engineering</li>
-                            <li>Full-Stack Engineering</li>
+                            <li>React.js</li>
+                            <li>Express.js</li>
                         </ul>
                         <h4><u>Languages</u></h4>
                         <p>Spanish (Full Professional)</p>
                         <h4><u>Certifications</u></h4>
                         <ul>
-                            <li>Microsoft Excel 2013 Certification</li>
+                            <li><img src={certificate} alt="UCF Certificate of completion">UCF Web Development Boot Camp</img></li>
                             <li>Microsoft Office Specialist: Microsoft Office 2016</li>
                         </ul>
                         <h4><u>Summary</u></h4>
