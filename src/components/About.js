@@ -30,7 +30,7 @@ function About() {
                         <h3 className="text-center"><u> What I am looking for.</u></h3>
                         <p className='text-left'>I am looking for a role as either a software engineer or a full stack developer(or front-end/ back-end). I love to learn so I am willing to pick up any language necessary for the role. My experience is mostly in TypeScript, Node.js, React.js, SQL, PostgreSQL, AWS, and golang. </p>
                         <h3 className="text-center"><u>Want more info?</u></h3>
-                        <p className='text-left'>You can download my resume at the bottom of this page by clicking on the "Resume" link. Checkout my GitHub by clicking on the "GitZHub" icon at the bottom of the page. You can also check out my LinkedIn profile by clicking on the "LinkedIn" icon at the bottom of the page.</p>
+                        <p className='text-left'>You can download my resume at the bottom of this page by clicking on the "Resume" link. Checkout my GitHub by clicking on the "GitHub" icon at the bottom of the page. You can also check out my LinkedIn profile by clicking on the "LinkedIn" icon at the bottom of the page.</p>
                         </div>
                     </div>
                     </div>
