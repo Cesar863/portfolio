@@ -2,7 +2,7 @@ name: Upload to S3 Bucket
 
 on:
   push:
-    branches: [ main ]
+    branches: [ gh-pages ]
 
 jobs:
   upload:
@@ -20,7 +20,7 @@ jobs:
         aws-region: us-east-1
 
     - name: Upload to S3
-      run: aws s3 sync . s3://cesarcmartinez.com
+      run: aws s3 sync ./build s3://cesarcmartinez.com
       
     - name: Create CloudFront Invalidation for Distribution 1
       run: |
