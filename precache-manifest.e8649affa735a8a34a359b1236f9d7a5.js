@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2f08649d65b1008ef20d",
+    "revision": "d998e74e7217f0a339c1",
     "url": "/portfolio/static/css/main.22023799.chunk.css"
   },
   {
-    "revision": "2f08649d65b1008ef20d",
-    "url": "/portfolio/static/js/main.2f08649d.chunk.js"
+    "revision": "d998e74e7217f0a339c1",
+    "url": "/portfolio/static/js/main.d998e74e.chunk.js"
   },
   {
     "revision": "e459cc6ec89340cad24c",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/work-day-scheduler.ba027e35.png"
   },
   {
-    "revision": "8b557a1c027321735854416effaf73fd",
+    "revision": "710c58e2750a382276ca2aba8e7a6ec3",
     "url": "/portfolio/index.html"
   }
 ];
