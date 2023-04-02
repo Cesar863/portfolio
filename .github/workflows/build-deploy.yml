@@ -23,7 +23,10 @@ jobs:
       run: aws s3 sync build s3://cesarcmartinez.com --delete
     
     - name: Move Static folder to Portfolio
-      run: aws s3 mv s3://cesarcmartinez.com/static s3://cesarcmartinez.com/portfolio --recursive
+      run: aws s3 mv s3://cesarcmartinez.com/static s3://cesarcmartinez.com/portfolio/static --recursive
+      
+    - name: Move manifest to Portfolio
+      run: aws s3 mv s3://cesarcmartinez.com/manifest.json s3://cesarcmartinez.com/portfolio/ --recursive
       
     - name: Create CloudFront Invalidation for Distribution 1
       run: |
