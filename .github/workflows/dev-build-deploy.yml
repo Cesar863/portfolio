@@ -1,10 +1,10 @@
 # Name of workflow as seen in Github actions tab
-name: dev-build-and-deploy
-# Run workflow only on push to dev branch
+name: main-build-and-deploy
+# Run workflow only on push to main branch
 on:
   push:
     branches:
-      -dev
+      -main
 jobs:
   # To build the project
   build-tambola:
@@ -28,4 +28,4 @@ jobs:
           aws-region: us-west-1
 
       - name: Deploy to S3 bucket
-        run: aws s3 sync ./dist/ s3://dev-tambola --delete
+        run: aws s3 sync ./dist/ s3://main-tambola --delete
