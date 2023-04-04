@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { capitalizeFirstLetter } from '../utils/helpers';
 import { validateEmail } from '../utils/helpers';
+import axios from 'axios';
 import '../assets/css/style.css';
 import 'react-bootstrap';
 import 'bootstrap';
@@ -47,6 +48,19 @@ function Contact() {
             console.log('Handle Form', formState);
         }
     };
+    console.log(formState);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        axios.post('http://localhost:3001/submit-form', formState)
+            .then(res => {
+                console.log(res.data);
+            })
+            .catch(err => {
+                console.log(err);
+            })
+    }
+
     return(
         <section className="">
             <div className="container">
@@ -94,7 +108,7 @@ function Contact() {
                                 </div>
                             )}
                             <div className="text-center">
-                            <button type="submit" className="btn btn-info btn-xl m-3">Submit</button>
+                            <button onClick={sendEmail} type="submit" className="btn btn-info btn-xl m-3">Submit</button>
                             </div>
                         </form>
                     </div>

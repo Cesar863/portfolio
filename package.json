@@ -3,13 +3,20 @@
   "version": "0.1.0",
   "homepage": "https://Cesar863.github.io/portfolio",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "aws-amplify": "^5.0.22",
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.2",
     "react-dom": "^17.0.2",
@@ -20,7 +27,9 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "start:server": "node server/index.js",
+    "start:client": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^8.0.1",
     "gh-pages": "^3.2.3"
   }
 }

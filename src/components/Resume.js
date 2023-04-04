@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from "../utils/helpers";
-import certificate from '../assets/resume/Cesar Martinez Resume 2022-2023.pdf'
 
 function Resume() {
     const [pages] = useState([
