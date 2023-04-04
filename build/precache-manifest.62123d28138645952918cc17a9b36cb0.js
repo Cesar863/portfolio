@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "c7e75e27fbcea70e9621",
-    "url": "/portfolio/static/css/main.5b5dd720.chunk.css"
+    "revision": "f85ea9e213a40f3c6929",
+    "url": "/portfolio/static/css/main.6c59fe5e.chunk.css"
   },
   {
-    "revision": "c7e75e27fbcea70e9621",
-    "url": "/portfolio/static/js/main.c7e75e27.chunk.js"
+    "revision": "f85ea9e213a40f3c6929",
+    "url": "/portfolio/static/js/main.f85ea9e2.chunk.js"
   },
   {
     "revision": "f4a2a6c05474266edc2e",
     "url": "/portfolio/static/js/1.f4a2a6c0.chunk.js"
   },
   {
-    "revision": "bc8795463756fcf94a77",
+    "revision": "894ed32c239b255ea426",
     "url": "/portfolio/static/css/2.45d47d49.chunk.css"
   },
   {
-    "revision": "bc8795463756fcf94a77",
-    "url": "/portfolio/static/js/2.bc879546.chunk.js"
+    "revision": "894ed32c239b255ea426",
+    "url": "/portfolio/static/js/2.894ed32c.chunk.js"
   },
   {
     "revision": "243830c8db47cfa1b934",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/work-day-scheduler.ba027e35.png"
   },
   {
-    "revision": "85ab264c02be823e794f282f9c823dec",
+    "revision": "a978c6ed8c5bc390963dbb3ed4837808",
     "url": "/portfolio/index.html"
   }
 ];
