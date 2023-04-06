@@ -49,4 +49,4 @@ jobs:
         DISTRIBUTION_ID=E3LYT1OYIXQEAA
         aws cloudfront create-invalidation \
           --distribution-id $DISTRIBUTION_ID \
-          -- paths "/*"
+          --paths "/*"
