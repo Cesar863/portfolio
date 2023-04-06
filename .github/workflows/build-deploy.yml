@@ -44,7 +44,7 @@ jobs:
           --distribution-id $DISTRIBUTION_ID \
           --paths "/*"
     
-    -name: create cloudfront invalidation for cdn
+    - name: create cloudfront invalidation for cdn
       run: |
         DISTRIBUTION_ID=E3LYT1OYIXQEAA
         aws cloudfront create-invalidation \
