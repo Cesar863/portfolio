@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f85ea9e213a40f3c6929",
+    "revision": "914c00f471c4b0cda851",
     "url": "/portfolio/static/css/main.6c59fe5e.chunk.css"
   },
   {
-    "revision": "f85ea9e213a40f3c6929",
-    "url": "/portfolio/static/js/main.f85ea9e2.chunk.js"
+    "revision": "914c00f471c4b0cda851",
+    "url": "/portfolio/static/js/main.914c00f4.chunk.js"
   },
   {
     "revision": "f4a2a6c05474266edc2e",
@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "efdcce6dead81c389f40eb53621fa36b",
-    "url": "/portfolio/static/media/Cesar Martinez Resume 2022-2023.efdcce6d.pdf"
+    "url": "/portfolio/static/media/CesarMartinezResume.efdcce6d.pdf"
   },
   {
     "revision": "68a751757985d6511a4ddae0d7998706",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/work-day-scheduler.ba027e35.png"
   },
   {
-    "revision": "a978c6ed8c5bc390963dbb3ed4837808",
+    "revision": "9a8cb80cbbea8d785447d2c20782cd04",
     "url": "/portfolio/index.html"
   }
 ];

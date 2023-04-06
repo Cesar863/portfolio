@@ -19,7 +19,7 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
 
-    - name: Upload to S3
+    - name: Upload build to S3
       run: aws s3 sync build s3://cesarcmartinez.com --delete
     
     - name: Move Static folder and manifest.json to Portfolio
@@ -27,6 +27,9 @@ jobs:
         aws s3 mv s3://cesarcmartinez.com/static s3://cesarcmartinez.com/portfolio/static --recursive
         aws s3 mv s3://cesarcmartinez.com/manifest.json s3://cesarcmartinez.com/portfolio/manifest.json
       
+    - name: upload assets to s3
+      run : aws s3 sync src/assets s3://cdn.cesarcmartinez.com -- delete
+
     - name: Create CloudFront Invalidation for Distribution 1
       run: |
         DISTRIBUTION_ID=EB8X7BZNQGJVF
@@ -40,3 +43,10 @@ jobs:
         aws cloudfront create-invalidation \
           --distribution-id $DISTRIBUTION_ID \
           --paths "/*"
+    
+    -name: create cloudfront invalidation for cdn
+      run: |
+        DISTRIBUTION_ID=E3LYT1OYIXQEAA
+        aws cloudfront create-invalidation \
+          --distribution-id $DISTRIBUTION_ID \
+          -- paths "/*"

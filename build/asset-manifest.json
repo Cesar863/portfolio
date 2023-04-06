@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio/static/css/main.6c59fe5e.chunk.css",
-  "main.js": "/portfolio/static/js/main.f85ea9e2.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.f85ea9e2.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.914c00f4.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.914c00f4.chunk.js.map",
   "static/js/1.f4a2a6c0.chunk.js": "/portfolio/static/js/1.f4a2a6c0.chunk.js",
   "static/js/1.f4a2a6c0.chunk.js.map": "/portfolio/static/js/1.f4a2a6c0.chunk.js.map",
   "static/css/2.45d47d49.chunk.css": "/portfolio/static/css/2.45d47d49.chunk.css",
@@ -10,7 +10,7 @@
   "runtime~main.js": "/portfolio/static/js/runtime~main.243830c8.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.243830c8.js.map",
   "static/media/Me.png": "/portfolio/static/media/Me.295f8178.png",
-  "static/media/Cesar Martinez Resume 2022-2023.pdf": "/portfolio/static/media/Cesar Martinez Resume 2022-2023.efdcce6d.pdf",
+  "static/media/CesarMartinezResume.pdf": "/portfolio/static/media/CesarMartinezResume.efdcce6d.pdf",
   "static/media/HTML-CSS-portfolio.png": "/portfolio/static/media/HTML-CSS-portfolio.68a75175.png",
   "static/media/PWA-budget-tracker.png": "/portfolio/static/media/PWA-budget-tracker.2606ee96.png",
   "static/media/code-refactor.png": "/portfolio/static/media/code-refactor.0318fc38.png",
@@ -21,9 +21,9 @@
   "static/media/start-us.png": "/portfolio/static/media/start-us.c9e36568.png",
   "static/media/tech-blog.png": "/portfolio/static/media/tech-blog.73b1f71c.png",
   "static/media/work-day-scheduler.png": "/portfolio/static/media/work-day-scheduler.ba027e35.png",
-  "static/css/2.45d47d49.chunk.css.map": "/portfolio/static/css/2.45d47d49.chunk.css.map",
   "static/css/main.6c59fe5e.chunk.css.map": "/portfolio/static/css/main.6c59fe5e.chunk.css.map",
+  "static/css/2.45d47d49.chunk.css.map": "/portfolio/static/css/2.45d47d49.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.62123d28138645952918cc17a9b36cb0.js": "/portfolio/precache-manifest.62123d28138645952918cc17a9b36cb0.js",
+  "precache-manifest.4f2bb03fd10d43b66f340d8a661ec636.js": "/portfolio/precache-manifest.4f2bb03fd10d43b66f340d8a661ec636.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
