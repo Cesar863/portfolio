@@ -28,7 +28,7 @@ jobs:
         aws s3 mv s3://cesarcmartinez.com/manifest.json s3://cesarcmartinez.com/portfolio/manifest.json
       
     - name: upload assets to s3
-      run : aws s3 sync src/assets s3://cdn.cesarcmartinez.com -- delete
+      run : aws s3 sync src/assets s3://cdn.cesarcmartinez.com --delete
 
     - name: Create CloudFront Invalidation for Distribution 1
       run: |
