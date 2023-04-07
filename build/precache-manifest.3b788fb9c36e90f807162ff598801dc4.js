@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "914c00f471c4b0cda851",
-    "url": "/portfolio/static/css/main.6c59fe5e.chunk.css"
+    "revision": "ea52762274967c56a152",
+    "url": "/portfolio/static/css/main.2add87b5.chunk.css"
   },
   {
-    "revision": "914c00f471c4b0cda851",
-    "url": "/portfolio/static/js/main.914c00f4.chunk.js"
+    "revision": "ea52762274967c56a152",
+    "url": "/portfolio/static/js/main.ea527622.chunk.js"
   },
   {
-    "revision": "f4a2a6c05474266edc2e",
-    "url": "/portfolio/static/js/1.f4a2a6c0.chunk.js"
+    "revision": "e2723de9d6e9385cbe1e",
+    "url": "/portfolio/static/js/1.e2723de9.chunk.js"
   },
   {
-    "revision": "894ed32c239b255ea426",
-    "url": "/portfolio/static/css/2.45d47d49.chunk.css"
+    "revision": "46d2bb1267fced7fe9fa",
+    "url": "/portfolio/static/css/2.b3340c50.chunk.css"
   },
   {
-    "revision": "894ed32c239b255ea426",
-    "url": "/portfolio/static/js/2.894ed32c.chunk.js"
+    "revision": "46d2bb1267fced7fe9fa",
+    "url": "/portfolio/static/js/2.46d2bb12.chunk.js"
   },
   {
-    "revision": "243830c8db47cfa1b934",
-    "url": "/portfolio/static/js/runtime~main.243830c8.js"
+    "revision": "c0f9df0360656587dbce",
+    "url": "/portfolio/static/js/runtime~main.c0f9df03.js"
   },
   {
     "revision": "295f8178403dd301dec69a77af1b6797",
@@ -48,6 +48,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/eat-n-greet.78a19f46.png"
   },
   {
+    "revision": "cd8543ddbf80c5e4a7161184102b0492",
+    "url": "/portfolio/static/media/header.cd8543dd.png"
+  },
+  {
     "revision": "178e2894c43f3c0603633ced77acd66c",
     "url": "/portfolio/static/media/idk-you-pick.178e2894.png"
   },
@@ -72,7 +76,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/work-day-scheduler.ba027e35.png"
   },
   {
-    "revision": "9a8cb80cbbea8d785447d2c20782cd04",
+    "revision": "994ea684f0db55a0cdd1534f2bcb6a57",
     "url": "/portfolio/index.html"
   }
 ];
