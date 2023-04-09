@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { capitalizeFirstLetter } from '../utils/helpers';
 import 'react-bootstrap';
 import '../assets/css/style.css';
-import Me from '../assets/img/Me.png';
 
 
 function About() {
@@ -19,7 +18,7 @@ function About() {
                     <div className="col-lg-10 mx-auto border gunmetal mint-cream d-flex flex-wrap row container-fluid">
                         <div>
                             <img
-                            src={Me} className="img-fluid mt-5" alt="My fiance and I in front of the tower at Bok Tower Gardens."/>
+                            src='https://cdn.cesarcmartinez.com/img/Me.png' className="img-fluid mt-5" alt="My fiance and I in front of the tower at Bok Tower Gardens."/>
                         </div>
                         <div>
                         <div>

@@ -1,0 +1,31 @@
+name: Update CDN
+
+on:
+  push:
+    paths:
+    - 'src/assets'
+
+jobs:
+  update-cdn:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+
+    - name: upload assets to s3
+      run : aws s3 sync src/assets s3://cdn.cesarcmartinez.com --delete
+
+    - name: create cloudfront invalidation for cdn
+    run: |
+      DISTRIBUTION_ID=E3LYT1OYIXQEAA
+      aws cloudfront create-invalidation \
+        --distribution-id $DISTRIBUTION_ID \
+        --paths "/*"

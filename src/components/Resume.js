@@ -29,7 +29,8 @@ function Resume() {
                         <p>Spanish (Full Professional)</p>
                         <h4><u>Certifications</u></h4>
                         <ul>
-                            <li>UCF Web Development Boot Camp</li>
+                            <li><a href='http://cdn.cesarcmartinez.com/resume/CesarMartinezBootcamp.pdf' rel="noopener noreferrer" target="_blank"> UCF Web Development Boot Camp</a></li>
+                            <li><a href='http://cdn.cesarcmartinez.com/resume/CesarMartinezTableau.pdf' rel="noopener noreferrer" target="_blank"> UCF Tableau Data Science Certification</a></li>
                         </ul>
                         <h4><u>Summary</u></h4>
                         <p> A Software Engineer with 2+ years of experience in Full-Stack development. 1+ years of AWS development. I am a quick leaner and am excited to grow in the field. I am currently working on Bravado Health where we are developing the AYVA app. </p>

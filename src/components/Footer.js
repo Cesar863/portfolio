@@ -2,7 +2,6 @@ import React from 'react';
 import { FaGithub, FaEnvelope, FaLinkedin, FaArrowAltCircleDown } from 'react-icons/fa';
 import 'react-bootstrap';
 import '../assets/css/style.css';
-import Doc from '../assets/resume/CesarMartinezResume.pdf';
 
 function Footer() {
     return(
@@ -31,7 +30,7 @@ function Footer() {
                             <div className="p-2">
                                 Resume:
                                 <br/>
-                                <a href={Doc} download>
+                                <a href='http://cdn.cesarcmartinez.com/resume/CesarMartinezResume.pdf' target='_blank' download>
                                     <FaArrowAltCircleDown size="2.5em"/>
                                 </a>
                             </div>
