@@ -24,8 +24,8 @@ jobs:
       run : aws s3 sync src/assets s3://cdn.cesarcmartinez.com --delete
 
     - name: create cloudfront invalidation for cdn
-    run: |
-      DISTRIBUTION_ID=E3LYT1OYIXQEAA
-      aws cloudfront create-invalidation \
-        --distribution-id $DISTRIBUTION_ID \
-        --paths "/*"
+      run: |
+        DISTRIBUTION_ID=E3LYT1OYIXQEAA
+        aws cloudfront create-invalidation \
+          --distribution-id $DISTRIBUTION_ID \
+          --paths "/*"
