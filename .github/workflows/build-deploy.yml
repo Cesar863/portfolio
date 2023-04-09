@@ -2,10 +2,10 @@ name: Upload to S3 Bucket
 
 on:
   push:
-  branches: 
-    - main
-  paths: 
-   - 'build/**'
+    branches: 
+      - main
+    paths: 
+      - 'build/**'
 
 jobs:
   upload:

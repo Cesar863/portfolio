@@ -2,10 +2,10 @@ name: Update CDN
 
 on:
   push:
-  branches: 
-    - main
+    branches: 
+      - main
     paths:
-    - 'src/assets/**'
+      - 'src/assets/**'
 
 jobs:
   update-cdn:
