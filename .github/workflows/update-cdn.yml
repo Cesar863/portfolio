@@ -3,7 +3,7 @@ name: Update CDN
 on:
   push:
     paths:
-    - 'src/assets'
+    - './src/assets'
 
 jobs:
   update-cdn:
