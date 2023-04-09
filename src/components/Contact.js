@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { capitalizeFirstLetter } from '../utils/helpers';
 import { validateEmail } from '../utils/helpers';
-import { sendEmail } from '../utils/helpers';
 import '../assets/css/style.css';
 import 'react-bootstrap';
 import 'bootstrap';
@@ -27,7 +26,6 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if(!errorMessage) {
-            console.log('Submit Form', formState);
         }
     };
 
@@ -48,7 +46,6 @@ function Contact() {
         }
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
-            console.log('Handle Form', formState);
         }
     };
     
@@ -56,15 +53,12 @@ function Contact() {
         const apiUrl = `https://0lhxh1k7v0.execute-api.us-east-1.amazonaws.com/1/sendEmail`;
     
         const requestData = formData;
-        console.log('this is the request data');
 
         const request = await axios.post(apiUrl, requestData);
         const response = request;
 
         response.status === 200 ? setSuccessMessage(true) : setEmailDidNotSend(true)
     }
-
-    console.log(formState);
 
     return(
         <section className="">

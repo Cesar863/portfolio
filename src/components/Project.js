@@ -4,7 +4,6 @@ import { FaGithub } from 'react-icons/fa';
 
 function Project({ project }) {
     const {name, repo, link, description } = project;
-    console.log(name);
 
     return(
         <div className="col-lg-4 col-sm-6 p-1 border border-dark">

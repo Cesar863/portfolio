@@ -18,7 +18,6 @@ const password = process.env.MAIL_PASSWORD;
 
 app.post('/submit-form', cors(), (req, res) => {
   const formData = req.body;
-  console.log(formData);
 
   const transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -39,10 +38,8 @@ app.post('/submit-form', cors(), (req, res) => {
 
   transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
-          console.log(error);
           res.send('Error sending email');
       } else {
-          console.log('Email sent: ' + info.response);
           res.send('Email sent successfully');
       }
   })

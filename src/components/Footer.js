@@ -30,7 +30,7 @@ function Footer() {
                             <div className="p-2">
                                 Resume:
                                 <br/>
-                                <a href='http://cdn.cesarcmartinez.com/resume/CesarMartinezResume.pdf' target='_blank' download>
+                                <a href='http://cdn.cesarcmartinez.com/resume/CesarMartinezResume.pdf' target='_blank' rel="noopener noreferrer" download>
                                     <FaArrowAltCircleDown size="2.5em"/>
                                 </a>
                             </div>
