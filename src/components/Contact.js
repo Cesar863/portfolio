@@ -113,7 +113,7 @@ function Contact() {
                                 </div>
                             )}
                             {successMessage ? <div>
-                            Email sent Successfully!
+                            Your email was sent Successfully!
                             </div> : <></>}
                             {emailDidNotSend ? <div>
                             An error occurred please try again later.
