@@ -109,8 +109,8 @@ function Resume() {
                             <li>Api Development</li>
                             <li>Redux.js</li>
                             <li>Amazon Web Services (AWS)</li>
-                            <li>GraphQL</li>
                             <li>XHTML</li>
+                            <li>GraphQL</li>
                             <li>JSON Web Token (JWT)</li>
                             <li>Object-Relational Mapping (ORM)</li>
                             <li>Object-Oriented Programming (OOP)</li>

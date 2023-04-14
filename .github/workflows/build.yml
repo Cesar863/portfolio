@@ -24,3 +24,11 @@ jobs:
       - name: build app
         run: npm run build
         working-directory: build
+      
+      - name: Update Build Folder
+        run: |
+          git config --global user.email "${{ env.GIT_USER_EMAIL }}"
+          git config --global user.name "${{ env.GIT_USER_NAME }}"
+          git add your/react/app/build
+          git commit -m "Update build folder"
+          git push origin main
