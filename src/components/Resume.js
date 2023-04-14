@@ -110,8 +110,8 @@ function Resume() {
                             <li>Redux.js</li>
                             <li>Amazon Web Services (AWS)</li>
                             <li>XHTML</li>
-                            <li>JSON Web Token (JWT)</li>
                             <li>GraphQL</li>
+                            <li>JSON Web Token (JWT)</li>
                             <li>Object-Relational Mapping (ORM)</li>
                             <li>Object-Oriented Programming (OOP)</li>
                             <li>Progressive Web Applications (PWA)</li>
