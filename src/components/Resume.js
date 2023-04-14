@@ -107,8 +107,8 @@ function Resume() {
                             <li>GitFlow</li>
                             <li>Web Pack</li>
                             <li>Api Development</li>
-                            <li>Redux.js</li>
                             <li>Amazon Web Services (AWS)</li>
+                            <li>Redux.js</li>
                             <li>JSON Web Token (JWT)</li>
                             <li>XHTML</li>
                             <li>GraphQL</li>
