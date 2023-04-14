@@ -1,0 +1,79 @@
+name: Build and Deploy App
+
+on: 
+  push: 
+    branches: 
+      - main
+
+jobs: 
+  build-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use node 16
+        uses: actions/setup-node@v2
+        with: 
+          node-version: '16.x'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: build app
+        run: npm run build
+        working-directory: build
+      
+      - name: Update Build Folder
+        run: |
+          git config user.email "${{ secrets.GIT_USER_EMAIL }}"
+          git config user.name "${{ secrets.GIT_USER_NAME }}"
+          git add -A
+          git commit -m "Update build folder"
+          git push origin main
+
+  deploy-app:
+    needs: build-app
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Wait for build to deploy
+        run: |
+          URL="https://cesarcmartinez.com"
+          until $(curl --output /dev/null --silent --head --fail $URL); do
+            printf '.'
+            sleep 5
+          done
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Upload build to S3
+        run: aws s3 sync build s3://cesarcmartinez.com --delete
+    
+      - name: Move Static folder and manifest.json to Portfolio
+        run: |
+          aws s3 mv s3://cesarcmartinez.com/static s3://cesarcmartinez.com/portfolio/static --recursive
+          aws s3 mv s3://cesarcmartinez.com/manifest.json s3://cesarcmartinez.com/portfolio/manifest.json
+
+      - name: Create CloudFront Invalidation for Distribution 1
+        run: |
+          DISTRIBUTION_ID=EB8X7BZNQGJVF
+          aws cloudfront create-invalidation \
+            --distribution-id $DISTRIBUTION_ID \
+            --paths "/*"
+
+      - name: Create CloudFront Invalidation for Distribution 2
+        run: |
+          DISTRIBUTION_ID=EOEHIIQOL8RNY
+          aws cloudfront create-invalidation \
+            --distribution-id $DISTRIBUTION_ID \
+            --paths "/*"
