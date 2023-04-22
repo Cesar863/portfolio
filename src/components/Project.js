@@ -1,12 +1,16 @@
 import React from 'react';
 import { removeHyphensAndCapitalize } from '../utils/helpers';
 import { FaGithub } from 'react-icons/fa';
+import { useSelector } from 'react-redux';
 
 function Project({ project }) {
     const {name, repo, link, description } = project;
+    const showAll = useSelector((state) => state.storedInfo.showAll);
 
     return(
-        <div className="col-lg-4 col-sm-6 p-1 border border-dark">
+        
+        <div className={showAll ? "col-lg-4 col-sm-6 p-1 border border-dark" : 'p-1 border border-dark'}>
+            {!showAll ? <div className="text-light h2">{removeHyphensAndCapitalize(name)}</div> : <></>}
             <div className="portfolio-box" key={name}>
                 <img
                     src={`http://cdn.cesarcmartinez.com/img/${name}.png`}

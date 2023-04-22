@@ -17,11 +17,13 @@ function Contact() {
     const [formState, setFormState] = useState({
         name: '',
         email: '',
+        subject:'',
         message: ''
     });
+    console.log(formState);
 
     const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, message } = formState;
+    const { name, email, subject, message } = formState;
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -30,6 +32,7 @@ function Contact() {
     };
 
     const handleChange = (e) => {
+        console.log(e)
         if(e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
@@ -53,9 +56,12 @@ function Contact() {
         const apiUrl = `https://0lhxh1k7v0.execute-api.us-east-1.amazonaws.com/1/sendEmail`;
     
         const requestData = formData;
+        console.log(requestData);
 
         const request = await axios.post(apiUrl, requestData);
+        console.log(request);
         const response = request;
+        console.log(response);
 
         response.status === 200 ? setSuccessMessage(true) : setEmailDidNotSend(true)
     }
@@ -76,6 +82,18 @@ function Contact() {
                                     type="text"
                                     name="name"
                                     defaultValue={name}
+                                    onBlur={handleChange}
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor='subject'>subject</label>
+                                <textarea
+                                    className='form-control'
+                                    placeholder='Subject'
+                                    name="subject"
+                                    type='text'
+                                    rows='1'
+                                    defaultValue={subject}
                                     onBlur={handleChange}
                                 />
                             </div>

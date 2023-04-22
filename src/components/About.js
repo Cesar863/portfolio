@@ -12,7 +12,7 @@ function About() {
     // adding comment to see if workflow deploys 
 
     return(
-        <div className=" d-flex p-5">
+        <div className=" d-flex p-2">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 mx-auto border gunmetal mint-cream d-flex flex-wrap row container-fluid">
