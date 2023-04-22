@@ -113,8 +113,8 @@ function Resume() {
                             <li>XHTML</li>
                             <li>Object-Relational Mapping (ORM)</li>
                             <li>Progressive Web Applications (PWA)</li>
-                            <li>GraphQL</li>
                             <li>Object-Oriented Programming (OOP)</li>
+                            <li>GraphQL</li>
                             <li>Handlebars.js</li>
                         </ul>
                     </div>
