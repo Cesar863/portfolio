@@ -111,8 +111,8 @@ function Resume() {
                             <li>Redux.js</li>
                             <li>JSON Web Token (JWT)</li>
                             <li>XHTML</li>
-                            <li>GraphQL</li>
                             <li>Object-Relational Mapping (ORM)</li>
+                            <li>GraphQL</li>
                             <li>Object-Oriented Programming (OOP)</li>
                             <li>Progressive Web Applications (PWA)</li>
                             <li>Handlebars.js</li>

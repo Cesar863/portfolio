@@ -9,7 +9,6 @@ function About() {
         { name: 'about me'}
     ]);
     const [currentPage] = useState(pages[0]);
-    // adding comment to see if workflow deploys 
 
     return(
         <div className=" d-flex p-2">
