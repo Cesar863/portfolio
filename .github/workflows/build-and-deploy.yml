@@ -23,23 +23,23 @@ jobs:
 
       - name: build app
         run: npm run build
-        working-directory: build
+        # working-directory: build
       
-      - name: Update Build Folder
-        run: |
-          git config user.email "${{ secrets.GIT_USER_EMAIL }}"
-          git config user.name "${{ secrets.GIT_USER_NAME }}"
-          git add -A
-          git commit -m "Update build folder"
-          git push origin main
+      # - name: Update Build Folder
+      #   run: |
+      #     git config user.email "${{ secrets.GIT_USER_EMAIL }}"
+      #     git config user.name "${{ secrets.GIT_USER_NAME }}"
+      #     git add -A
+      #     git commit -m "Update build folder"
+      #     git push origin main
 
-  deploy-app:
-    needs: build-app
-    runs-on: ubuntu-latest
+  # deploy-app:
+  #   needs: build-app
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+  #   steps:
+  #     - name: Checkout Code
+  #       uses: actions/checkout@v3
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
