@@ -112,9 +112,9 @@ function Resume() {
                             <li>JSON Web Token (JWT)</li>
                             <li>XHTML</li>
                             <li>Object-Relational Mapping (ORM)</li>
+                            <li>Progressive Web Applications (PWA)</li>
                             <li>GraphQL</li>
                             <li>Object-Oriented Programming (OOP)</li>
-                            <li>Progressive Web Applications (PWA)</li>
                             <li>Handlebars.js</li>
                         </ul>
                     </div>
