@@ -41,14 +41,6 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Wait for build to deploy
-        run: |
-          URL="https://cesarcmartinez.com"
-          until $(curl --output /dev/null --silent --head --fail $URL); do
-            printf '.'
-            sleep 5
-          done
-
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
